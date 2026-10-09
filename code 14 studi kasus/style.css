@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* Style Header / Banner (Background Kuning Muda kehijauan) */
+.header {
+    background-color: #eef3d2;
+    padding: 12px 24px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    height: 55px;
+    width: auto;
+    object-fit: contain;
+}
+
+.header h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #222222;
+}
+
+/* Style Navigasi / Menu Hitam */
+.navbar {
+    background-color: #000000;
+    padding: 8px 24px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+    color: #dcdcdc;
+    text-decoration: underline;
+}
+
+/* Style Konten Utama */
+.content {
+    padding: 24px 32px;
+}
+
+.content h2 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #4a5d23;
+    margin-bottom: 20px;
+}
+
+/* Beranda Media Styles */
+.media-container {
+    margin-top: 15px;
+    max-width: 800px;
+}
+
+.media-container video {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.audio-box {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Table Style (seperti di screenshot) */
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.book-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+.book-table th {
+    background-color: #f7f3d6;
+    color: #333333;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 12px;
+    text-align: left;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.book-table th:first-child,
+.book-table td:first-child {
+    text-align: center;
+    width: 50px;
+}
+
+.book-table td {
+    padding: 12px;
+    font-size: 14px;
+    color: #222222;
+    vertical-align: middle;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+/* Striping warna latar belakang baris */
+.book-table tr:nth-child(even) td {
+    background-color: #ffffff;
+}
+
+.book-table tr:nth-child(odd) td {
+    background-color: #f5faff;
+}
+
+.book-table .book-cover {
+    width: 85px;
+    height: 120px;
+    object-fit: cover;
+    display: block;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+/* Form Style (Kontak Kami) */
+.contact-form {
+    max-width: 500px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #b5b5b5;
+    border-radius: 3px;
+    font-size: 14px;
+    outline: none;
+}
+
+.form-group input[type="text"]:focus,
+.form-group textarea:focus {
+    border-color: #4a5d23;
+}
+
+.btn-submit {
+    background-color: #15632b;
+    color: #ffffff;
+    border: none;
+    padding: 8px 24px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn-submit:hover {
+    background-color: #0f481f;
+}

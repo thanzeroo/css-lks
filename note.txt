@@ -1,0 +1,39 @@
+css kepanjangannya cascading style sheet
+ada properthy dan value dalam css
+
+mulai dari video ke 13 ga ku copy ke code, terlalu banyak dan buang waktu
+jadi fokusnya hafalah aja, karena sisanya basic masih
+
+materi box model ada tambahan pengenalan
+pakai overflow, ilang tapi sesuai dengan min height
+
+materi border, seputar oenggunaan border yang lebih kompleks seperti
+border-top-width, jadi buat ngatur border sebelah mana, sama apanya yang
+mau di styling, bisa warna, ukuran, jarak, bentuk (solid dll)
+
+materi padding, bagian yang menyentuk content, dan border, dan di video
+materinya seputar nyoba nyoba ukuran, atas, kanan , bawah, kiri, sebagai ngukur lansung
+kalau 3 kanan bawah kiri, kalau 2 aja kanan kiri
+
+materi margin, sama kayak pading tapi di luar border, dengan cara kodingan 
+yang kurang lebih sama kayak pading
+
+materi display element, inline, block, inline-block, flex
+• Block (display: block): Elemen selalu bermula pada baris baru dan mengambil lebar penuh (100%) dari induknya. Contoh elemen bawaan: <div>, <p>, <h1>–<h6>.
+• Inline (display: inline): Elemen tampil sejajar dalam satu baris yang sama tanpa membuat baris baru. Lebar dan tinggi (width dan height) tidak mempan diatur pada elemen ini. Contoh elemen bawaan: <span>, <a>, <strong>.
+• Inline-Block (display: inline-block): Gabungan dari sifat inline dan block. Elemen tetap berjajar ke samping seperti inline, tetapi ukuran lebar, tinggi, serta marginnya bisa diatur layaknya elemen block.
+• Flex (display: flex): Sistem tata letak modern (Flexbox) yang membuat elemen induk mengontrol anak-anaknya secara fleksibel. Anak-anak elemen akan tersusun rapi secara horizontal atau vertikal, serta mudah diatur perataan dan jaraknya.
+
+materi list style mengatur / ngerubahyang basic kayak bulet jadi bermacam
+macam, dan banyak kategori yang nge supprot perubahan kayak
+Bentuk Penanda (list-style-type)
+Posisi Penanda (list-style-position)
+Gambar Penanda (list-style-image)
+
+materi table style, ngerubah warna, border, dan bentuk bentuk unik seperti border right left top bottom
+sisanya kurang lebih sama kayak div, tapi lebih spesifik juga buat tiap border, atau tidak
+
+materi forms style, nambahkan url, logo bisa di css juga, 
+nge desain ukuran, ngerubah warna, bentuk ukuran, pinggirannya juga
+
+matri img style, kurang lebih sama ja, lebih gampang karena tinggal ngubah ubah ukuran

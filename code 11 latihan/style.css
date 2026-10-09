@@ -1,0 +1,52 @@
+
+.hello{
+    color: white;
+    background-color: black;
+    font-family: arial;
+    width: 80px;
+    padding: 10px;
+    border: 2px blue solid;
+}
+
+.text{
+    background-color: cyan;
+    width: 400px;
+}
+
+.text2{
+    background-color: orange;
+    width: 400px;
+}
+
+.text3{
+    background-color: rgb(195, 195, 195);
+    color: rgb(0, 0, 160);
+    width: 200px;
+}
+
+.container{
+    background-color: yellow;
+    padding-left: 25px;
+    width: 130px;
+    border: 2px red solid;
+}
+
+.container2{
+    background-color: grey;
+    padding: 20px;
+    width: 160px;
+    border: 2px black solid;
+    margin: 100px 0px 0px 200px;
+}
+
+.container3{
+    background-color: grey;
+    width: 600px;
+    height: 150px;
+}
+
+.container4{
+    background-color: aquamarine;
+    width: 600px;
+    height: 200px;
+}

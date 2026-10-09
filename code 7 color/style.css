@@ -1,0 +1,24 @@
+/* color */
+
+/* forground */
+h1{
+    color: aqua;
+    background-color: antiquewhite;
+}
+
+/* hex code */
+h2{
+    color: #ffffff;
+    background-color: beige;
+}
+
+/* rgb value */
+p{
+    color: rgb(255, 60, 60);
+    background-color: rgb(rgb(255, 88, 88) green blue / alpha);
+}
+
+/* background color */
+body{
+    background-color: #ffffff;
+}

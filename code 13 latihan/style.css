@@ -1,0 +1,43 @@
+h1{
+    font-family: monospace;
+    color: white;
+    background-color: rgb(82, 82, 255);
+    padding: 20px;
+    text-align: center;
+}
+
+h2{
+    font-family: monospace;
+    font-size: 16px;
+}
+
+p{
+    font-size: 12px;
+    text-align: justify;
+    margin: auto;
+}
+
+.b1{
+    color: red;
+}
+
+.b2{
+    color: blueviolet;
+}
+
+.b3{
+    color: blue;
+}
+
+.container{
+    background-color: antiquewhite;
+    width: 600px;
+    text-align: justify;
+    padding: 10px;
+    margin: 20px;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+}

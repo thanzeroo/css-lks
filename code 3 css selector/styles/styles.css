@@ -1,0 +1,44 @@
+/* selector untuk semua hal */
+
+/* Universal selector */
+* {
+    font-family: Arial;
+}
+
+/* type selector */
+h1{
+    color: crimson;
+}
+
+h2{
+    color: aqua;
+}
+
+
+/* class selector */
+ul.menu{
+    color: darkgoldenrod;
+}
+
+/* id selector */
+#zero{
+    color: black;
+}
+
+/* child selector */
+p>b{
+    color: darkblue;
+}
+
+/* decendand selector */
+p b{
+    color: blueviolet;
+}
+
+p+h2{
+    color: aqua;
+}
+
+h2-p{
+    color: aqua;
+}

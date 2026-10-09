@@ -1,0 +1,26 @@
+penentuan prioritas
+* {
+    font-family: arial;
+}
+
+i{
+    color: red;
+}
+
+i{
+    /* yang bawah sendiri yang di gunakan */
+    color: blue; 
+}
+
+b{
+    color: pink;
+}
+
+p b{
+    /* prioritas */
+    color: yellow !important;
+}
+
+p b{
+    color: aqua;
+}

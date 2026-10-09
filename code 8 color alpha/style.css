@@ -1,0 +1,33 @@
+body{
+    background-color: white;
+    color: white;
+}
+
+.isi{
+    background-color: grey;
+    border: 2px solid black;
+    padding: 20px;
+    
+}
+
+h1{
+    background-color: rgb(117, 71, 71);
+    padding: 10px;
+}
+
+h2{
+    background-color: rgba(117, 71, 71,0,5);
+    padding: 10px;
+}
+
+/* hsl command */
+p.paragraf1{
+    background-color: hsl(260, 49%, 56%);
+}
+
+/* alpha */
+p.paragraf2{
+    background-color: hsla(260, 49%, 56%);
+}
+
+/* rgb sama hsl kurang lebih sama, a di belakang itu buat naruh opasity */
